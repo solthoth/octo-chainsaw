@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 function InstallHomebrew() {
   which -s brew
@@ -25,7 +25,7 @@ function InstallWebTools() {
   npm install -g grunt-cli
   npm install -g jshint
   npm install -g coffee-script
-  npm install -g express-cli
+  npm install -g express-generator
   npm install -g less
   # install packages via GEM
   gem install sass
@@ -40,7 +40,7 @@ function InstallNoSQLDBs() {
 echo "Installing/Updating Homebrew"
 InstallHomebrew
 which -s brew
-if [[ $? != 0 ]] ; then
+if [[ $? == 0 ]] ; then
   echo "Installing System Tools"
   InstallSysTools
   echo "Installing Web Development Tools"

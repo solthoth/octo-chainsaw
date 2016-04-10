@@ -13,6 +13,8 @@ function Install-DevApps
     choco install nodejs.install -y
     choco install notepadplusplus.install -y
     choco install sourcestree -y
+    choco install atom -y
+
 }
 function Install-UserApps
 {

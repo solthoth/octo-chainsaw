@@ -5,7 +5,7 @@ param(
 function Install-SystemApps
 {
     choco install curl -y
-    choco install 7zip.install -y   
+    choco install 7zip.install -y
 }
 function Install-DevApps
 {
@@ -14,6 +14,7 @@ function Install-DevApps
     choco install notepadplusplus.install -y
     choco install sourcestree -y
     choco install atom -y
+    choco install linqpad -y
 
 }
 function Install-UserApps
@@ -31,7 +32,7 @@ function Install-Apps
         Install-UserApps
     }
     if($Apps -eq "ALL" -or $Apps -eq "DEV"){
-        Install-DevApps    
+        Install-DevApps
     }
 }
 function Run($path)

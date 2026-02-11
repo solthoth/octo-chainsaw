@@ -1,0 +1,54 @@
+# ---------------------------------------------
+# CLI Tools (Brew Install)
+# ---------------------------------------------
+brew "git"
+brew "gh"
+brew "curl"
+brew "jq"
+brew "tree"
+
+# Dev / Infra
+brew "terraform"
+brew "kubectl"
+brew "helm"
+brew "azure-cli"
+brew "awscli"
+brew "sops"
+brew "age"
+brew "docker"
+brew "colima"
+
+# Languages / Runtimes
+brew "nvm"
+brew "go"
+brew "python"
+
+# AI / LLM
+brew "ollama"
+
+# --------------------------------------------
+# GUI Apps (brew install --cask)
+# --------------------------------------------
+cask "visual-studio-code"
+# cask "docker-desktop"
+cask "iterm2"
+cask "brave-browser"
+cask "discord"
+
+# --------------------------------------------
+# VSCode Extensions
+# --------------------------------------------
+vscode "codebiscuits.assorted-biscuits"
+vscode "codebiscuits.css-biscuits"
+vscode "codebiscuits.html-biscuits"
+vscode "codebiscuits.js-ts-biscuits"
+vscode "docker.docker"
+vscode "editorconfig.editorconfig"
+vscode "golang.go"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-dotnettools.csharp"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-playwright.playwright"
+vscode "ms-vscode-remote.remote-containers"
+vscode "tal7aouy.icons"
+vscode "vscode-icons-team.vscode-icons"
